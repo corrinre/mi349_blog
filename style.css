@@ -9,13 +9,16 @@ body {
     padding: 0;
 }
 
-/* Style the main content area */
-.main-content {
+.details {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #816666;
     border: 1px solid #ccc;
+    display: flex;
+    gap: 25px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 h1 {
